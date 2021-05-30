@@ -1,0 +1,178 @@
+* {
+    font-family: 'Ubuntu', sans-serif;  
+    border: none;
+    border-radius: 15px;    
+}
+
+/* status on */
+
+.instock
+{color: rgb(31, 167, 31);
+}
+
+.outofstock
+{color: rgb(157, 38, 9);
+}
+
+
+/* barra de navegacion */
+nav, summary, details, a {
+background: #FFE69B;
+display:grid;
+text-decoration: none;
+color: #2E150A;
+border-radius: 15px;
+font-size: 20px;
+}
+h1, h3 , h2 {
+    text-align: center; 
+    color: #212a31;  
+}
+/* banners principal h1 */
+h1 {
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: #2E150A;
+    background: #FFE69B;
+    height: 170px;
+}
+/* banners segundario h1 */
+
+#tienda {
+    background:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-color: #0076d7ec; 
+    color: #0076d7ec;
+    border-width: 10px;
+border-style: solid;
+}
+
+
+
+/* cvideo, imagenes */
+.video-mobil {
+    border: none;
+    text-align: center; 
+    background:white;
+    font-size: 14PX;
+    font-weight: initial;
+    width: 100% vw;
+    border-radius: 30px;    
+    margin-top: 10px;
+    border-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+#imagendeproyecto {
+    width: 32%;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+p.Hero {
+    background:#E50101;
+    border-radius: 15px;
+    padding: 10px;
+    color: #FFE69B;
+    text-align: center;
+}
+
+p {
+    background:rgba(128, 128, 128, 0.088);
+    padding: 10px;
+    color: black;
+    
+}
+
+/* card */
+.image-card {
+min-width: 33%;
+max-width: 100%;
+}
+
+
+ div, p .card  { 
+ display: inline-flex;
+ width: 32%;
+
+}
+
+
+.button-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 250px;
+    color: white;
+    width: 100%;
+    height: 55px;
+    background: #0A85ED;
+    border-width: 7px;
+    border-style: double;
+    border-color: white
+}
+
+
+/* whatsapp button */
+
+
+.button, .button-whatsapp  {
+    font-size: 20px;
+    font-weight: 350px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #25d366;
+    color:white;
+    border-width: 10px;
+
+}
+
+
+/* footer */
+a.none, { background: white;
+color:#0d41e1;
+}
+    
+a.afooter{ background: #040d2b;
+ color:# ;
+}
+
+h6 {
+    text-align: center; 
+    background:#040d2b;
+    font-size: 14PX;
+    font-weight: initial;
+    color: rgba(241, 229, 229, 0.952);
+    width: 100%;
+    height: 25%;
+    margin-top: 10px;
+    border-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    border-bottom: 0px;
+}
+
+::selection {
+    background: #0d42e144;
+    color:rgb(255, 255, 255);
+}
+
+::hover 
+{
+    color: 09A6F3;
+}
